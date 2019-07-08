@@ -1,0 +1,59 @@
+# navigation
+alias code="cd ~/Code"
+alias estated="cd ~/Code/estated"
+alias estcopy="cd ~/Code/estated-copy"
+alias usrealty="cd ~/Code/usrealty"
+
+# git
+alias ga="git add"
+alias gaa="git add ."
+alias gb="git branch"
+alias gc="git commit -m"
+alias gco="git checkout"
+alias hamster="git checkout master"
+alias gd="git branch -d"
+alias gD="git branch -D"
+alias gf="git fetch"
+alias gmm="git merge master"
+alias mp="git checkout master && git pull"
+alias gp="git pull"
+alias gn="git checkout -b"
+alias gr="git reset"
+alias gs="git status"
+alias gup="git push --set-upstream origin"
+alias gac="git add . && git commit -m"
+alias yolo="git push"
+alias greset="git reset --hard && git clean -df"
+
+# also git, but not really
+alias yd="ydiff -s -w 154"
+alias yds="ydiff -s -w 74"
+
+# artisan/laravel commands
+alias art="php artisan"
+alias pfo="php artisan dashboard:prefill-overview"
+alias pfa="php artisan dashboard:prefill-api-calls"
+alias pfu="php artisan dashboard:prefill-users"
+alias fr="php artisan cache:clear && php artisan view:clear && php artisan migrate:fresh"
+alias fs="php artisan cache:clear && php artisan view:clear && php artisan migrate:fresh --seed"
+alias acc="php artisan cache:clear && php artisan view:clear"
+
+# composer
+alias cdal="composer dump-autoload"
+
+# ssh stuff
+alias estvm="ssh forge@68.183.27.39"    # Estated Staging
+alias esvm="ssh forge@159.203.189.34"   # Estated Production
+alias usvm="ssh forge@159.203.196.243"  # USRR Production
+
+# misc
+alias editaliases="vi ~/.aliases"
+alias editvimrc="vi ~/.vimrc"
+alias zshconfig="vi ~/.zshrc"
+alias editzshrc="vi ~/.zshrc"
+alias ohmyzsh="vi ~/.oh-my-zsh"
+alias editkarabiner="vi ~/.config/karabiner/karabiner.json"
+alias copysshkey="pbcopy < ~/.ssh/id_rsa.pub"
+alias editslackterm="vi ~/.slack-term"
+alias larlog="vi storage/logs/laravel.log" # Edit the laravel.log file for the current application
+alias pstorm="open -a phpstorm" # Open whatever follows in PhpStorm
